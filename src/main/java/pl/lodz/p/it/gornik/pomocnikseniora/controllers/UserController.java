@@ -31,7 +31,7 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("https://pomocnik2021react.herokuapp.com/api/users")
+@RequestMapping("/api/users")
 public class UserController {
 
     @Autowired
